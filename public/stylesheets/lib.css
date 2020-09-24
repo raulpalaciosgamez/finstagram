@@ -3,7 +3,7 @@
 }
 
 body, input {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   color: #244751;
 }
@@ -40,6 +40,10 @@ main {
   margin: 0 auto;
 }
 
+
+
+
+
 .new-finstagram-post {
   text-align: center;
   margin-bottom: 2em;
@@ -51,6 +55,15 @@ main {
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+@media(max-width: 800px) {
+    .new-finstagram-post > .button {
+        position: fixed;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+    }
 }
 
 .button {
